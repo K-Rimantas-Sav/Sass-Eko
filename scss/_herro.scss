@@ -1,0 +1,27 @@
+@use "vars" as v;
+
+
+@media screen and (min-width: 375px) {
+.herro {
+  padding-left: 15px;
+}
+.herro .pills {
+  box-sizing: border-box;
+  margin-left: 105px;
+  
+}
+.herroTitle {
+  color: v.$primary-color;
+}
+.herro p {
+  color: v.$text-color;
+}
+
+.herro .btn {
+ padding-left: 20px;
+ margin-left: 20px;
+}
+.herro .btn--lightBtn {
+  margin-left: 12px;
+}
+}
