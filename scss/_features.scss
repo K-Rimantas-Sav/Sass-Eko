@@ -1,0 +1,20 @@
+@use "vars" as v;
+
+@media screen and (min-width: 375px) {
+.features {
+  padding-left: 15px;
+}
+.features p {
+  color: v.$text-color;
+}
+
+.features .pills {
+  box-sizing: border-box;
+  margin-left: 134px;
+}
+
+ .featuresTitle {
+  color: v.$primary-color;
+  text-align: center;
+ } 
+}

@@ -28,14 +28,14 @@ body {
   border-radius: 2rem;
   border: 1px solid v.$primary-color;
 
-  // & {
-  //   background-color: transparent; // Permatoma spalva
-  //   color: v.$primary-color;
-  // } pridejimas prie btn klases
+  
 
 }.btn--lightBtn{
   // paveldejimas is btn calases
   @extend .btn;
  background-color: transparent; // Permatoma spalva
     color: v.$primary-color;
+}
+.icon{
+  
 }
