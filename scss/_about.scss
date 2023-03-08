@@ -1,0 +1,24 @@
+
+
+@media screen and (min-width: 375px) {
+.abutUs {
+  text-align: center;
+}
+.abutUs p {
+  text-align: left;
+ 
+}
+.abutUs__img {
+  margin-bottom: 4rem;
+}
+.abuot-list {
+  text-align: left;
+  padding-left: 0;
+  &__item::before {
+  content: '\f00c';
+  font-family: 'fontawesome';
+  padding-right: 0.5rem;
+  }
+}
+
+}

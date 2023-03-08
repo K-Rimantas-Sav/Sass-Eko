@@ -9,7 +9,15 @@ body {
   font-family: 'Open Sans', sans-serif;
 
 }
-
+p, li {
+  color: v.$text-color;
+  font: 14px "Open Sans";
+  
+}
+.container {
+  padding-top: 4rem;
+ padding-bottom: 4rem;
+}
 .pills {
   background-color: v.$orandjh-light;
   color: v.$primary-oranj;
@@ -37,5 +45,5 @@ body {
     color: v.$primary-color;
 }
 .icon{
-  
+  color:v.$primary-color;
 }

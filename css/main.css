@@ -97,6 +97,16 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+p, li {
+  color: rgba(0, 0, 0, 0.5);
+  font: 14px "Open Sans";
+}
+
+.container {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 .pills {
   background-color: rgba(251, 178, 68, 0.2);
   color: #FBB244;
@@ -121,10 +131,24 @@ body {
   color: #081158;
 }
 
+.icon {
+  color: #081158;
+}
+
 /*  common SCSS */
 body {
   font-family: "Montserrat", sans-serif;
   font-family: "Open Sans", sans-serif;
+}
+
+p, li {
+  color: rgba(0, 0, 0, 0.5);
+  font: 14px "Open Sans";
+}
+
+.container {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .pills {
@@ -148,6 +172,10 @@ body {
 
 .btn--lightBtn {
   background-color: transparent;
+  color: #081158;
+}
+
+.icon {
   color: #081158;
 }
 
@@ -162,41 +190,82 @@ body {
 }
 
 @media screen and (min-width: 375px) {
-  .herro {
-    padding-left: 15px;
-  }
   .herro .pills {
     box-sizing: border-box;
-    margin-left: 100px;
   }
   .herroTitle {
     color: #081158;
   }
-  .herro p {
-    color: rgba(0, 0, 0, 0.5);
+  .herro {
+    text-align: center;
   }
   .herro .btn, .herro .btn--lightBtn {
-    padding-left: 20px;
-    margin-left: 20px;
+    margin-left: 12px;
   }
   .herro .btn--lightBtn {
     margin-left: 12px;
+  }
+  .hero_image {
+    margin-top: 4rem;
   }
 }
 @media screen and (min-width: 375px) {
   .features {
     padding-left: 15px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .f-card__icon {
+    margin-top: 0.4em;
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+    position: relative;
+  }
+  .f-card__icon::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(251, 178, 68, 0.5);
+    left: 50%;
+    top: -10px;
+  }
+  .f-card__title {
+    margin-bottom: 0.2em;
+  }
+  .f-card__icon img {
+    height: 48px;
   }
   .features p {
-    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 4rem;
   }
   .features .pills {
     box-sizing: border-box;
-    margin-left: 134px;
   }
   .featuresTitle {
     color: #081158;
     text-align: center;
+  }
+}
+@media screen and (min-width: 375px) {
+  .abutUs {
+    text-align: center;
+  }
+  .abutUs p {
+    text-align: left;
+  }
+  .abutUs__img {
+    margin-bottom: 4rem;
+  }
+  .abuot-list {
+    text-align: left;
+    padding-left: 0;
+  }
+  .abuot-list__item::before {
+    content: "\f00c";
+    font-family: "fontawesome";
+    padding-right: 0.5rem;
   }
 }
 /*  main SCSS */
@@ -205,6 +274,5 @@ html ul {
 }
 
 body {
-  font-size: 18px;
   background-color: #fff;
 }/*# sourceMappingURL=main.css.map */

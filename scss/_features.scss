@@ -3,14 +3,42 @@
 @media screen and (min-width: 375px) {
 .features {
   padding-left: 15px;
+  text-align: center;
+  box-sizing: border-box;
 }
+.f-card {
+  &__icon{
+    margin-top: 0.4em;
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: transparentize(#FBB244, 0.5);
+      left: 50%;
+      top: -10px;
+    }
+  }
+  &__title {
+      margin-bottom: 0.2em;
+    }
+ 
+}
+.f-card__icon img {
+  height: 48px;
+}
+
 .features p {
-  color: v.$text-color;
+ margin-bottom: 4rem;
 }
 
 .features .pills {
   box-sizing: border-box;
-  margin-left: 134px;
+  
 }
 
  .featuresTitle {
