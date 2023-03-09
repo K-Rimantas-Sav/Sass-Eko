@@ -1,0 +1,45 @@
+@use "vars" as v;
+
+
+@media screen and (min-width: 375px) {
+
+.services {
+  text-align: center;
+}
+.card {
+  display: grid;
+  grid-template-columns: 100px auto;
+  gap: 0.3rem;
+//   &__icon {
+//     grid-row: span 2;
+//     align-self: center;
+//     justify-self: center;
+//   }
+}
+.services-card {
+  &__icon{
+ 
+
+ grid-row: span 2;
+ align-self: center;
+  
+  }
+  &__icon {
+    font-size: 3.6rem;
+    position: relative;
+    &::after{
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: v.$orandjh-light;
+  left: 9%;
+  top: -5%;
+ }
+  }
+ 
+  
+
+}
+}
