@@ -62,10 +62,9 @@ p {
 
 .card {
   padding: 1rem;
-  box-shadow: 5px 5px 10px rgb(180, 190, 194);
-  border: 1px solid rgb(191, 180, 180);
-  border-radius: 5px;
-  background-color: snow;
+  border: 1px solid rgb(198, 197, 197);
+  border-radius: 6px;
+  background-color: white;
 }
 
 /*  helpers */
@@ -273,6 +272,7 @@ p, li {
     text-align: center;
   }
   .card {
+    margin-bottom: 20px;
     display: grid;
     grid-template-columns: 100px auto;
     gap: 0.3rem;
@@ -294,6 +294,48 @@ p, li {
     background-color: rgba(251, 178, 68, 0.4);
     left: 9%;
     top: -5%;
+  }
+}
+@media screen and (min-width: 375px) {
+  .testimonials {
+    text-align: center;
+  }
+  .testimTitle {
+    color: #081158;
+  }
+  .testimonials .container p {
+    margin-bottom: 2rem;
+  }
+  .tmonila {
+    background-color: #fff;
+    height: 299px;
+    width: 328px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+  .card__text {
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 26px;
+    padding-right: 40px;
+    padding-top: 40px;
+  }
+  .card__autor {
+    width: 246px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+  }
+  .person__img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  .person__text h4, p {
+    margin: 0;
+    text-align: left;
+    padding-left: 20px;
   }
 }
 /*  main SCSS */

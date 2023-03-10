@@ -1,0 +1,47 @@
+
+@use "vars" as v;
+
+@media screen and (min-width: 375px) {
+
+.testimonials {
+  text-align: center;
+}
+.testimTitle {
+color: v.$primary-color;
+
+  }
+  .testimonials .container p {
+    margin-bottom: 2rem;
+  }
+ .tmonila {
+ background-color: #fff;
+  height: 299px;
+  width: 328px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+ } 
+ .card__text {
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 26px;
+  padding-right: 40px;
+  padding-top: 40px;
+ }
+.card__autor {
+  width: 246px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+ } 
+ .person__img {
+  height: 40px;
+ width: 40px;
+ border-radius: 50%;
+}
+.person__text h4, p{
+  margin: 0;
+  text-align: left;
+  padding-left: 20px;
+}
+}
