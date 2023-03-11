@@ -338,6 +338,39 @@ p, li {
     padding-left: 20px;
   }
 }
+.footerContainer {
+  width: 375px;
+  margin-left: 0.5rem;
+}
+
+.card__footer {
+  text-align: left;
+  padding-left: 20px;
+  margin-bottom: 2rem;
+}
+
+.card__footer p {
+  padding: 0;
+  margin-bottom: 20px;
+  padding-right: 27px;
+}
+
+.card__footer .fa::before {
+  padding-right: 20px;
+}
+
+.icons__block {
+  min-height: 35px;
+  align-items: center;
+}
+
+.icons__block img {
+  box-sizing: border-box;
+  height: 30px;
+  width: 26px;
+  padding-top: 4px;
+}
+
 /*  main SCSS */
 html ul {
   list-style: none;
