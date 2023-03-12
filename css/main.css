@@ -456,6 +456,11 @@ p, li {
   .drop__li :hover__ul li {
     display: block;
   }
+  .tmonilaGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+  }
   .footerContainer {
     width: 100%;
     margin: auto;
