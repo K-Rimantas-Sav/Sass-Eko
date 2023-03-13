@@ -9,19 +9,24 @@
     align-items: center;
     padding-right: 1.8rem;
   }
+  .main_nav .fa {
+  display: none;
+}
  .nav_list {
   
   display: flex;
   align-items: center;
  
  } 
-.main_nav .fa {
-  display: none;
-}
-.main_nav li {
+
+.main_nav .nav__linc {
   font-size: 0.8rem;
   padding-right: 10px;
   // text-align: center;
+  position: relative;
+}
+.main_nav li:hover {
+  color: black;
 }
 .btn--heder {
   font-size: 0.8rem;
@@ -31,14 +36,28 @@
   border-radius: 17px;
   
 }
+.btn--heder:hover {
+  background-color: #e8e7e7;
+  color: v.$primary-oranj;
+} 
+//  Sub menu  Start
+
 .drop__ul {
   display: none;
+  position: absolute;    
 }
-.drop__li :hover {
-  &__ul li {
-    display: block;
-  }
+// .drop__li {
+//   position: relative;
+// }
+.drop__li:hover .drop__ul {
+  position: relative;
+  display: block;
 }
+//  Sub menu  End
+
+
+//  Header end
+
 .tmonilaGrid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
