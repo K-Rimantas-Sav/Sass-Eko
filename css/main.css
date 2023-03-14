@@ -507,4 +507,8 @@ p, li {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
+  .footerContainer {
+    min-width: 700px;
+    margin-left: 309px;
+  }
 }/*# sourceMappingURL=main.css.map */
