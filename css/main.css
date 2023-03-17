@@ -508,7 +508,8 @@ p, li {
     grid-template-rows: repeat(2, 1fr);
   }
   .footerContainer {
-    min-width: 700px;
+    min-width: 860px;
     margin: auto;
+    grid-template-columns: 40% auto auto 30%;
   }
 }/*# sourceMappingURL=main.css.map */
